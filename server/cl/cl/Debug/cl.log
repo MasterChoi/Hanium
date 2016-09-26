@@ -1,0 +1,45 @@
+﻿빌드 시작: 2016-09-24 오후 10:48:31
+     1>2 노드의 "C:\Users\EmbLab\documents\visual studio 2010\Projects\cl\cl\cl.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\cl.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\pthread\Pre-built.2\lib" /IC:\pthread\pthreads.2 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt P.c
+         P.c
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(31): warning C4101: 'threadStatus' :참조되지 않은 지역 변수입니다.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(76): warning C4244: '함수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(76): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(77): warning C4244: '함수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(77): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(81): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' 선언을 참조하십시오.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(156): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 'strtok' 선언을 참조하십시오.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(160): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 'strtok' 선언을 참조하십시오.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(226): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(229): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(231): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(232): warning C4244: '=' : 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(233): warning C4305: '-=' : 'double'에서 'float'(으)로 잘립니다.
+     1>c:\users\emblab\documents\visual studio 2010\projects\cl\cl\p.c(205): warning C4716: 'rasberryCommunicationThread' : 값을 반환해야 합니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\EmbLab\documents\visual studio 2010\Projects\cl\Debug\cl.exe" /INCREMENTAL /NOLOGO "C:\pthread\Pre-built.2\lib\x86\pthreadVC2.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\EmbLab\documents\visual studio 2010\Projects\cl\Debug\cl.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\EmbLab\documents\visual studio 2010\Projects\cl\Debug\cl.lib" /MACHINE:X86 Debug\cl.exe.embed.manifest.res
+         Debug\P.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\cl.exe.embed.manifest" /manifest Debug\cl.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         cl.vcxproj -> C:\Users\EmbLab\documents\visual studio 2010\Projects\cl\Debug\cl.exe
+       FinalizeBuildStatus:
+         "Debug\cl.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\cl.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\EmbLab\documents\visual studio 2010\Projects\cl\cl\cl.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.28
